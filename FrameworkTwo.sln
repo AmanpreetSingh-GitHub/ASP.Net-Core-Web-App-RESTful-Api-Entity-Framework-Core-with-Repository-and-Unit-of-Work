@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26510.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.Web", "FrameworkTwo.Web\FrameworkTwo.Web.csproj", "{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{4FE60A67-80AA-4AD3-BDE6-2C9ED94A0AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.Service", "FrameworkTwo.Service\FrameworkTwo.Service.csproj", "{60807FB6-3B44-4022-BB4D-C1DFD5EA255E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{74D9BE38-2A34-4969-9E87-9C824BD39651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CDEC2357-14CE-4970-B115-8847E5910DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{7C5AEA50-B643-40A6-8F38-6933E321F091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.Domain", "FrameworkTwo.Domain\FrameworkTwo.Domain.csproj", "{68745CD0-73F7-4FEC-AB37-289E09BAA96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.Repository", "FrameworkTwo.Repository\FrameworkTwo.Repository.csproj", "{C99A36DF-EA3D-4652-8485-5024842F0D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.BusinessLayer", "FrameworkTwo.BusinessLayer\FrameworkTwo.BusinessLayer.csproj", "{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkTwo.Model", "FrameworkTwo.Model\FrameworkTwo.Model.csproj", "{A98296D7-1293-44CB-9CF9-C03F77A293FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60807FB6-3B44-4022-BB4D-C1DFD5EA255E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60807FB6-3B44-4022-BB4D-C1DFD5EA255E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60807FB6-3B44-4022-BB4D-C1DFD5EA255E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60807FB6-3B44-4022-BB4D-C1DFD5EA255E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68745CD0-73F7-4FEC-AB37-289E09BAA96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68745CD0-73F7-4FEC-AB37-289E09BAA96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68745CD0-73F7-4FEC-AB37-289E09BAA96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68745CD0-73F7-4FEC-AB37-289E09BAA96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99A36DF-EA3D-4652-8485-5024842F0D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99A36DF-EA3D-4652-8485-5024842F0D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99A36DF-EA3D-4652-8485-5024842F0D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99A36DF-EA3D-4652-8485-5024842F0D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98296D7-1293-44CB-9CF9-C03F77A293FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98296D7-1293-44CB-9CF9-C03F77A293FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98296D7-1293-44CB-9CF9-C03F77A293FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98296D7-1293-44CB-9CF9-C03F77A293FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6A151AD-CC95-4EFD-9ED4-04A0FFB670DF} = {4FE60A67-80AA-4AD3-BDE6-2C9ED94A0AA0}
+		{60807FB6-3B44-4022-BB4D-C1DFD5EA255E} = {4FE60A67-80AA-4AD3-BDE6-2C9ED94A0AA0}
+		{68745CD0-73F7-4FEC-AB37-289E09BAA96B} = {74D9BE38-2A34-4969-9E87-9C824BD39651}
+		{C99A36DF-EA3D-4652-8485-5024842F0D97} = {74D9BE38-2A34-4969-9E87-9C824BD39651}
+		{96DBE964-E66F-45F6-A4F9-E8A7B6C0364D} = {7C5AEA50-B643-40A6-8F38-6933E321F091}
+		{A98296D7-1293-44CB-9CF9-C03F77A293FF} = {CDEC2357-14CE-4970-B115-8847E5910DB6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://architectures.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FrameworkTwo.Service\\FrameworkTwo.Service.csproj
+		SccProjectTopLevelParentUniqueName1 = FrameworkTwo.sln
+		SccProjectName1 = FrameworkTwo.Service
+		SccLocalPath1 = FrameworkTwo.Service
+		SccProjectUniqueName2 = FrameworkTwo.Web\\FrameworkTwo.Web.csproj
+		SccProjectTopLevelParentUniqueName2 = FrameworkTwo.sln
+		SccProjectName2 = FrameworkTwo.Web
+		SccLocalPath2 = FrameworkTwo.Web
+		SccProjectUniqueName3 = FrameworkTwo.Domain\\FrameworkTwo.Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = FrameworkTwo.sln
+		SccProjectName3 = FrameworkTwo.Domain
+		SccLocalPath3 = FrameworkTwo.Domain
+		SccProjectUniqueName4 = FrameworkTwo.Repository\\FrameworkTwo.Repository.csproj
+		SccProjectTopLevelParentUniqueName4 = FrameworkTwo.sln
+		SccProjectName4 = FrameworkTwo.Repository
+		SccLocalPath4 = FrameworkTwo.Repository
+		SccProjectUniqueName5 = FrameworkTwo.BusinessLayer\\FrameworkTwo.BusinessLayer.csproj
+		SccProjectTopLevelParentUniqueName5 = FrameworkTwo.sln
+		SccProjectName5 = FrameworkTwo.BusinessLayer
+		SccLocalPath5 = FrameworkTwo.BusinessLayer
+		SccProjectUniqueName6 = FrameworkTwo.Model\\FrameworkTwo.Model.csproj
+		SccProjectTopLevelParentUniqueName6 = FrameworkTwo.sln
+		SccProjectName6 = FrameworkTwo.Model
+		SccLocalPath6 = FrameworkTwo.Model
+	EndGlobalSection
+EndGlobal
