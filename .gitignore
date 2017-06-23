@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/FrameworkTwo.Web/obj
+/FrameworkTwo.Web/bin/Debug/netcoreapp1.1
+/FrameworkTwo.Service/obj
+/FrameworkTwo.Service/bin/Debug/netcoreapp1.1
+/FrameworkTwo.Repository/obj
+/FrameworkTwo.Repository/bin/Debug/netcoreapp1.1
+/FrameworkTwo.Model/obj
+/FrameworkTwo.Model/bin/Debug/netstandard1.4
+/FrameworkTwo.Domain/obj
+/FrameworkTwo.Domain/bin/Debug/netcoreapp1.1
+/FrameworkTwo.BusinessLayer/obj
+/FrameworkTwo.BusinessLayer/bin/Debug/netcoreapp1.1

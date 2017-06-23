@@ -34,7 +34,7 @@ namespace FrameworkTwo.Service
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            var connection = @"Server=(localdb)\MSSQLLocalDb;Database=CentricConnect;Trusted_Connection=True;";
+            var connection = @"Server=(localdb)\MSSQLLocalDb;Database=FrameworkTwo;Trusted_Connection=True;";
             services.AddDbContext<FrameworkTwoContext>(options => options.UseSqlServer(connection));
             services.AddSingleton<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IGenericRepository<Student>, GenericRepository<Student>>();
