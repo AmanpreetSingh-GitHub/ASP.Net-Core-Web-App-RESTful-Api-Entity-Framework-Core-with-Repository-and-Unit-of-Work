@@ -173,7 +173,7 @@ This article covers following things –
 
 ### Creating Generic Repository and Unit of Work ###
 
-- Details around each Generic Repository and Unit of Work classes is detailed in my other tutorial – FrameworkOne
+- Details around each Generic Repository and Unit of Work classes is detailed in my other tutorial – <a href="https://github.com/AmanpreetSingh-GitHub/Architecture-FrameworkOne">FrameworkOne</a>
 
 - In FrameworkTwo.Repository project, first add folder Interface. Then add a new interface file IGenericRepository
 
@@ -594,7 +594,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkTwo.Web project add a new folder Student under Views folder. And add a new view Index in the folder
-	<img src="Images/42.png" width="80%">
+	<img src="Images/42.png" width="60%">
 
 ### Run and Test solution ###
 
