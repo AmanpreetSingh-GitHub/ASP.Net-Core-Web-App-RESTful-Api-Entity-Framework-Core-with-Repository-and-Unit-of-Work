@@ -384,7 +384,7 @@ This article covers following things –
 
 ### Creating Web API Controller classes ###
 
-- In FrameworkTwo.Service project add a new controller - StudentController
+- In FrameworkTwo.Service project add a new empty API Controller - StudentController
 	<img src="Images/38.png" width="80%">
 	<img src="Images/39.png" width="80%">
 
@@ -597,6 +597,8 @@ This article covers following things –
 	<img src="Images/42.png" width="60%">
 
 ### Run and Test solution ###
+
+- Make FrameworkTwo.Service and FrameworkTwo.Web as start up projects
 
 - Put breakpoints on FrameworkTwo.Web -> StudentController -> Index method and run website
 
