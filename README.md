@@ -2,7 +2,7 @@
 
 ### Introduction ###
 
-This article covers following things –
+This article covers following things – 
 
 - Implementation of n-layered architecture in .Net Core with following layers -
 	- Domain layer
